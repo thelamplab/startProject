@@ -35,24 +35,16 @@ In the event that you run multiple experiments in the same project, simply numbe
 
 ### Directories and what they're for:
 
-**1. analysis:** analysis code, divided into subdirectories (typically `python`, `ipynb`, and `prototype`, the latter being for fMRI analysis)
-
-**2. data:** all datafiles, divided by experiment (e.g. `E1`)
-
-**3. experiment:** all of the code required to run the experiment, divided by experiment (e.g. `E1`)
-
-**4. ethics:** all documents relevant to REB approvals
-
-**5. figures:** figures, preferably in `.pdf` format, that are output by your analysis code
-
-**6. paper:** the writeup for the paper based on these data, typically `.tex` format for overleaf
-
-**7. presentations:** any slides or posters for presentations given based on these data
-
-**8. scratch:** the wild west space where you can workshop code. Its usually a good idea for this to have parallel depth to the actual code (i.e. `scratch/python`) so that any relative paths still function
-
-**9. stimuli:** any stimuli needed for prep or experiment (e.g. word lists, images, sounds, videos, training images for deep nets), divided by experiment (e.g. `E1`)
-
-**10. updates:** the oneSheet description for each study, a running document that details notes on the evolution of the project
-
-**11. utils:** an environment.yml file for any relevant conda environments, and a txt file with the commands required to build it (in casy yml fails, which it often does), other odds and ends (e.g. network architectures, weights, supporting text files)
+| Directory     | What it's for             |
+| ------------- |-------------    |
+| analysis | analysis code, divided into subdirectories (typically `python`, `ipynb`, and `prototype`, the latter being for fMRI analysis) |
+| data | all datafiles, divided by experiment (e.g. `E1`) |
+|experiment | all of the code required to run the experiment, divided by experiment (e.g. `E1`) |
+|ethics | all documents relevant to REB approvals | 
+|figures | figures, preferably in `.pdf` format, that are output by your analysis code | 
+|paper | the manuscript based on these data, typically `.tex` format for overleaf | 
+|presentations | any slides or posters for presentations given based on these data | 
+|scratch | the wild west space where you can workshop code. Its usually a good idea for this to have parallel depth to the actual code (i.e. `scratch/python`) so that any relative paths still function | 
+|stimuli | any stimuli needed for prep or experiment (e.g. word lists, images, sounds, videos, training images for deep nets), divided by experiment (e.g. `E1`)|
+|updates | the oneSheet description for each study, a running document that details notes on the evolution of the project|
+|utils | an environment.yml file for any relevant conda environments, and a txt file with the commands required to build it (in casy yml fails, which it often does), other odds and ends (e.g. network architectures, weights, supporting text files)|
