@@ -58,6 +58,8 @@ All data that you write out should be named as follows, where $1 through $4 are 
 
 `$1`-`$2`_`$3`.`$4`
 
+e.g. `drawFeat-1001_Enc.csv`
+
 | Variable | What to replace it with |
 | ------------- |-------------    |
 | `$1` | name of new project ( <= 12 chars, no spaces ) | 
