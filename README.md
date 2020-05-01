@@ -44,7 +44,8 @@ Bear in mind that at all steps, the goal is to make this easy to use for someone
 |experiment | all of the code required to run the experiment, divided by experiment (e.g. `E1`) |
 |ethics | all documents relevant to REB approvals | 
 |figures | figures, preferably in `.pdf` format, that are output by your analysis code | 
-|paper | the manuscript based on these data, typically `.tex` format for overleaf | 
+| output | intermediate products (e.g. classifier probabilities, accuracy values, summary statistics ) |
+| paper | the manuscript based on these data, typically `.tex` format for overleaf | 
 |presentations | any slides or posters for presentations given based on these data | 
 |scratch | the wild west space where you can workshop code. Its usually a good idea for this to have parallel depth to the actual code (i.e. `scratch/python`) so that any relative paths still function | 
 |stimuli | any stimuli needed for prep or experiment (e.g. word lists, images, sounds, videos, training images for deep nets), divided by experiment (e.g. `E1`)|
@@ -55,15 +56,16 @@ Bear in mind that at all steps, the goal is to make this easy to use for someone
 
 All data that you write out should be named as follows, where $1 through $4 are filled in depending on the experiment, subject, phase, and extension.
 
-$1-$2_$3.$4
+`$1`-`$2`_`$3`.`$4`
 
-$1 -- name of new project ( <= 12 chars, no spaces )
+| Variable | What to replace it with |
+| `$1` | name of new project ( <= 12 chars, no spaces ) | 
 
-$2 -- participant number (start at 1001 for first participant in E1, 4103 is 103rd participant in E4)
+| `$2` | participant number (start at 1001 for first participant in E1, 4103 is 103rd participant in E4) |
 
-$3 -- descriptive label for what this is (in memory task data could be 'Enc' for encoding, in fMRI, 'func01' for first functional run)
+| `$3` | descriptive label for what this is (in memory task data could be 'Enc' for encoding, in fMRI, 'func01' for first functional run) |
 
-$4 -- extension ( depends on the type of data, e.g. csv beh data )
+| `$4` | extension ( depends on the type of data, e.g. csv beh data ) |
 
 ### Incorporated in all data:
 
