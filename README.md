@@ -61,11 +61,8 @@ All data that you write out should be named as follows, where $1 through $4 are 
 | Variable | What to replace it with |
 | ------------- |-------------    |
 | `$1` | name of new project ( <= 12 chars, no spaces ) | 
-
 | `$2` | participant number (start at 1001 for first participant in E1, 4103 is 103rd participant in E4) |
-
 | `$3` | descriptive label for what this is (in memory task data could be 'Enc' for encoding, in fMRI, 'func01' for first functional run) |
-
 | `$4` | extension ( depends on the type of data, e.g. csv beh data ) |
 
 ### Incorporated in all data:
