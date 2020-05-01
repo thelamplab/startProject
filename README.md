@@ -59,6 +59,7 @@ All data that you write out should be named as follows, where $1 through $4 are 
 `$1`-`$2`_`$3`.`$4`
 
 | Variable | What to replace it with |
+| ------------- |-------------    |
 | `$1` | name of new project ( <= 12 chars, no spaces ) | 
 
 | `$2` | participant number (start at 1001 for first participant in E1, 4103 is 103rd participant in E4) |
