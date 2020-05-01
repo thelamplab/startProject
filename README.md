@@ -37,7 +37,7 @@ In the event that you run multiple experiments in the same project, simply numbe
 
 | Directory     | What it's for             |
 | ------------- |-------------    |
-| analysis | analysis code, divided into subdirectories (typically `python`, `ipynb`, and `prototype`, the latter being for fMRI analysis) |
+| analysis | analysis code, divided into subdirectories (typically `python`, `ipynb`, and `prototype`, the latter being for fMRI analysis strucutre, similar in spirit to [neuropipe](https://github.com/ntblab/neuropipe)) |
 | data | all datafiles, divided by experiment (e.g. `E1`) |
 |experiment | all of the code required to run the experiment, divided by experiment (e.g. `E1`) |
 |ethics | all documents relevant to REB approvals | 
