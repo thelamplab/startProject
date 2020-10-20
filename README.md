@@ -46,6 +46,7 @@ Bear in mind that at all steps, the goal is to make this easy to use for someone
 |figures | figures, preferably in `.pdf` format, that are output by your analysis code | 
 | output | intermediate products (e.g. classifier probabilities, accuracy values, summary statistics ) |
 | paper | the manuscript based on these data, typically `.tex` format for overleaf | 
+| prep | any buildup to the first experiment, this could include beta testing of code, stimulus generation, or control analysis |
 |presentations | any slides or posters for presentations given based on these data | 
 |scratch | the wild west space where you can workshop code. Its usually a good idea for this to have parallel depth to the actual code (i.e. `scratch/python`) so that any relative paths still function | 
 |stimuli | any stimuli needed for prep or experiment (e.g. word lists, images, sounds, videos, training images for deep nets), divided by experiment (e.g. `E1`)|
