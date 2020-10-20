@@ -6,23 +6,35 @@ This repo is to make it easy to initialize a new project with a familiar directo
 
 ```bash
 git clone --bare https://github.com/thelamplab/startProject.git
+```
+
+2. Move into the newly made `startProject.git`
+
+```
 cd startProject.git
 ```
-2. **BEFORE** moving on, make new repo on GitHub.com under thelamplab organization entitled `$NEW`. **DO NOT** initialize with README.
+3. **BEFORE** moving on, make new repo on GitHub.com under thelamplab organization entitled `$NEW`. **DO NOT** initialize with README.
 
-3. This next command establishes your new project repo remotely (i.e. on github.com). Remember to **replace** `$NEW` with what your new project is called.
+4. This next command establishes your new project repo remotely (i.e. on github.com). Remember to **replace** `$NEW` with what your new project is called.
 
 ```bash
 git push --mirror https://github.com/thelamplab/$NEW.git
 ```
 
-4. This next set of commands cleans up the leftover ingredients, and brings your new project onto your local machine.
+5. These next two commands cleans up the leftover ingredients
 
 ```bash
 cd ..
 rm -rf startProject.git
+```
+
+6. Now clone your new project onto your local machine.
+
+```
 git clone https://github.com/thelamplab/$NEW.git
 ```
+
+7. As a last step, change the `README.md` file to reflect the actual project name and description.
 
 ## Structure
 
